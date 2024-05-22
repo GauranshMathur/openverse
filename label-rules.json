@@ -1,0 +1,16 @@
+{
+    "rules": [
+      {
+        "label": "migrations",
+        "patterns": ["migrations/**"]
+      },
+      {
+        "label": "tests",
+        "patterns": ["tests/**"]
+      },
+      {
+        "label": "docs",
+        "patterns": ["docs/**"]
+      }
+    ]
+  }
