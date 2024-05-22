@@ -42,6 +42,3 @@ jobs:
           body: |
             This PR has migrations. Please rebase it before merging to ensure that conflicting migrations are not introduced.
 
-      - uses: banyan/auto-label@1.2
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
